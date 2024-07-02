@@ -79,7 +79,7 @@ btn.addEventListener('click', function(e) {
     const data = new URLSearchParams(formData);
     const objData = Object.fromEntries(data);
     const message = formatMesaage(objData);
-    window.open('https://wa.me/6285359516739?text=' + encodeURIComponent(message));
+    window.open('https://wa.me/6285266947121?text=' + encodeURIComponent(message));
 })
 
 // Format kirim ke whatsapp
